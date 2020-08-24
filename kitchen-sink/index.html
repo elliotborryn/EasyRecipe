@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Easy Recipe</title>
+    <link rel="stylesheet" href="../dist/css/framework7.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="apple-touch-icon" href="img/er_launcher_round.png">
+    <link rel="icon" href="img/er_launcher_round.png">
+</head>
+
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+        <div class="panel panel-left panel-cover">
+            <div class="page">
+                <div class="page-content">
+                    <div class="block-title">Easy Recipe</div>
+                    <div class="block">
+                        <p>Chocoladetaart</p>
+                        <p>Pasta Carbonara</p>
+                        <p>Croque Monsieur</p>
+                        <p>Baklava</p>
+                        <p>Broodje Kaas</p>
+                        <p>Mayonnaise</p>
+                        <p>Kebab</p>
+                        <p>Sushi</p>
+                        <p>Zeebaars in Witte wijn</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="view view-main view-init ios-edges" data-url="/">
+            <div class="page">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link icon-only panel-open" data-panel="left">
+                                <i class="icon f7-icons ios-only">menu</i>
+                                <i class="icon material-icons md-only">menu</i>
+                            </a>
+                        </div>
+                        <div class="title sliding">Easy Recipe</div>
+                        <div class="right">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <div class="list inline-labels no-hairlines-md">
+                        <ul>
+
+                            <li class="item-content item-input">
+                                <div class="item-media">
+                                    <i class="icon demo-list-icon"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title item-label">Password</div>
+                                    <div class="item-input-wrap">
+                                        <input type="password" placeholder="Your password">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-content item-input">
+                                <div class="item-media">
+                                    <i class="icon demo-list-icon"></i>
+                                </div>
+                                <div class="item-inner">
+                                    <div class="item-title item-label">E-mail</div>
+                                    <div class="item-input-wrap">
+                                        <input type="email" placeholder="Your e-mail">
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="block">
+                        <p class="row">
+                            <button class="col button button-big button-raised button-fill"><a id="whiteOb" href='/mainactivity/'>Login</a></button>
+                            <div class="divrow">
+                            <a id="fpass" href="/inputs-forget-pass/">Forgot Password?</a>
+                                </div>
+                            <h2 id="or">OR</h2>
+                            <button class="col button button-big button-raised"><a href="/inputs-register/">SIGN UP</a></button>
+                        </p>
+                    </div>
+                </div>
+                <script src="../dist/js/framework7.min.js"></script>
+                <script src="js/routes.js"></script>
+                <script src="js/app.js"></script>
+</body>
+
+</html>
